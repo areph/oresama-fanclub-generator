@@ -1,0 +1,1 @@
+# oresama-fanclub-generator
