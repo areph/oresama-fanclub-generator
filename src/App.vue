@@ -2,7 +2,7 @@
     <div id="app">
         <InputName @next="step++" key="start" v-if="step === 1" v-model="choiceQuestions.name"/>
         <SelectQuestion
-                :choices="questions.q1"
+                :choices="questions.q1.select"
                 :step="step"
                 @next="step++"
                 message="自分の体で自慢できるところはどこですか？"
@@ -10,7 +10,7 @@
                 v-model="choiceQuestions.q1"
         />
         <SelectQuestion
-                :choices="questions.q2"
+                :choices="questions.q2.select"
                 :step="step"
                 @next="step++"
                 message="これは人に負けないというところはどこですか？"
@@ -18,7 +18,7 @@
                 v-model="choiceQuestions.q2"
         />
         <SelectQuestion
-                :choices="questions.q3"
+                :choices="questions.q3.select"
                 :step="step"
                 @next="step++"
                 message="過去の栄光で当てはまる、もしくはいちばん近いものを選んでください"
@@ -26,7 +26,7 @@
                 v-model="choiceQuestions.q3"
         />
         <SelectQuestion
-                :choices="questions.q4"
+                :choices="questions.q4.select"
                 :step="step"
                 @next="step++"
                 message="自分の欠点だと思うものはなんですか"
@@ -34,7 +34,7 @@
                 v-model="choiceQuestions.q4"
         />
         <SelectQuestion
-                :choices="questions.q5"
+                :choices="questions.q5.select"
                 :step="step"
                 @next="step++"
                 message="あなたの顔の特徴でいちばん近いものを選んでください"

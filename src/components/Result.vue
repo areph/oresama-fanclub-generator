@@ -143,13 +143,13 @@
                 <table class="board-output-table">
                     <tr>
                         <td>
-                            <span class="style7">やっぱり{{questions.q1[choiceQuestions.q1 - 1]}}ですよね</span>
+                            <span class="style7">やっぱり{{questions.q1.select[choiceQuestions.q1 - 1]}}ですよね</span>
                             <span class="tx14px">谷P ( 2009/11/18 23:56 )</span>
                         </td>
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span>{{choiceQuestions.name}}様の魅力は{{questions.q1[choiceQuestions.q1 - 1]}}ですよね。こっそり見ているとつくづくそう思います。</span>
+                            <span>{{choiceQuestions.name}}様の魅力は{{questions.q1.select[choiceQuestions.q1 - 1]}}ですよね。こっそり見ているとつくづくそう思います。</span>
                         </td>
                     </tr>
                     <tr>
@@ -164,7 +164,7 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span>あの美しい{{questions.q1[choiceQuestions.q1 - 1]}}はそうそうあるもんじゃないですよね。同性の私が言うのもなんですが。</span>
+                            <span>あの美しい{{questions.q1.select[choiceQuestions.q1 - 1]}}はそうそうあるもんじゃないですよね。同性の私が言うのもなんですが。</span>
                         </td>
                     </tr>
                     <tr>
@@ -197,7 +197,7 @@
                     <tr>
                         <td class="tx14px">
                             <span>
-                                一見そうは思わせないけど繊細なところがありますよね。それが{{questions.q1[choiceQuestions.q1 - 1]}}に現れているのではないでしょうか。
+                                一見そうは思わせないけど繊細なところがありますよね。それが{{questions.q1.select[choiceQuestions.q1 - 1]}}に現れているのではないでしょうか。
                             </span>
                         </td>
                     </tr>
@@ -212,7 +212,7 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span>なんと言っても{{questions.q2[choiceQuestions.q2 - 1]}}だと思います。</span>
+                            <span>なんと言っても{{questions.q2.select[choiceQuestions.q2 - 1]}}だと思います。</span>
                         </td>
                     </tr>
                     <tr>
@@ -227,7 +227,7 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span>それはありますねー。{{choiceQuestions.name}}様の{{questions.q2[choiceQuestions.q2 - 1]}}は国体クラスなんじゃないかと思います。</span>
+                            <span>それはありますねー。{{choiceQuestions.name}}様の{{questions.q2.select[choiceQuestions.q2 - 1]}}は国体クラスなんじゃないかと思います。</span>
                         </td>
                     </tr>
                     <tr>
@@ -243,7 +243,7 @@
                     <tr>
                         <td class="tx14px">
                             <span>
-                                噂によると、学生時代「{{questions.q2[choiceQuestions.q2 - 1]}}オブザイヤー」に選ばれたらしいですよ。幼なじみだという人に聞きました。
+                                噂によると、学生時代「{{questions.q2.select[choiceQuestions.q2 - 1]}}オブザイヤー」に選ばれたらしいですよ。幼なじみだという人に聞きました。
                             </span>
                         </td>
                     </tr>
@@ -260,7 +260,7 @@
                     <tr>
                         <td class="tx14px">
                             <span>
-                                わたしも憧れて{{questions.q2[choiceQuestions.q2 - 1]}}を訓練しているのですが、なかなかあのレベルにまでは行きません。
+                                わたしも憧れて{{questions.q2.select[choiceQuestions.q2 - 1]}}を訓練しているのですが、なかなかあのレベルにまでは行きません。
                             </span>
                         </td>
                     </tr>
@@ -292,7 +292,7 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span>聞いた話では{{questions.q3[choiceQuestions.q3 - 1]}}らしいですよ。</span>
+                            <span>聞いた話では{{questions.q3.select[choiceQuestions.q3 - 1]}}らしいですよ。</span>
                         </td>
                     </tr>
                     <tr>
