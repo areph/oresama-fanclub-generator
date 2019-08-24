@@ -203,6 +203,86 @@
                     </tr>
                 </table>
 
+                <table class="board-output-table">
+                    <tr>
+                        <td>
+                            <span class="style7">{{choiceQuestions.name}}様のいいところ！</span>
+                            <span class="tx14px">ボーキサイト ( 2009/11/10 5:45 )</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>なんと言っても{{questions.q2[choiceQuestions.q2 - 1]}}だと思います。</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">賛成！</span>活断層 ( 2009/11/12 8:16 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>それはありますねー。{{choiceQuestions.name}}様の{{questions.q2[choiceQuestions.q2 - 1]}}は国体クラスなんじゃないかと思います。</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">新情報</span>サハリン ( 2009/11/12 10:11 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                噂によると、学生時代「{{questions.q2[choiceQuestions.q2 - 1]}}オブザイヤー」に選ばれたらしいですよ。幼なじみだという人に聞きました。
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:新情報</span>るな ( 2009/11/15 20:35)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                わたしも憧れて{{questions.q2[choiceQuestions.q2 - 1]}}を訓練しているのですが、なかなかあのレベルにまでは行きません。
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:新情報</span>太郎 ( 2009/11/15 20:46)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                無理すると体をこわすかもしれないから気をつけて！
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+
             </div>
         </div>
     </div>
