@@ -149,8 +149,7 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span>こんな掲示板があるなんて知りませんでした！</span>
-                            <span>{{choiceQuestions.name}}さんを応援する仲間ができて嬉しいです。{{choiceQuestions.name}}ファン歴半年ですがよろしくおねがいします。</span>
+                            <span>{{choiceQuestions.name}}様の魅力は{{questions.q1[choiceQuestions.q1 - 1]}}ですよね。こっそり見ているとつくづくそう思います。</span>
                         </td>
                     </tr>
                     <tr>
@@ -160,12 +159,12 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span class="style7">Re:はじめまして</span>chappie ( 2009/11/21 10:44 )
+                            <span class="style7">そうそう！</span>u-chan ( 2009/11/18 23:59 )
                         </td>
                     </tr>
                     <tr>
-                        <td class="tx14px">ようこそ！
-                            {{choiceQuestions.name}}さんを追ってもう2年になりますが心の中の炎は衰えません。こちらこそよろしくおねがいします。
+                        <td class="tx14px">
+                            <span>あの美しい{{questions.q1[choiceQuestions.q1 - 1]}}はそうそうあるもんじゃないですよね。同性の私が言うのもなんですが。</span>
                         </td>
                     </tr>
                     <tr>
@@ -175,29 +174,14 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span class="style7">Re:Re:はじめまして</span>ゴードン ( 2009/11/21 14:51 )
+                            <span class="style7">Re:そうそう！</span>ロベルト ( 2009/11/19 1:21 )
                         </td>
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            {{choiceQuestions.name}}さんとはときどき会うことがありますが、とても魅力的なかたです
-                            <br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="tx14px">
-                            <hr>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="tx14px">
-                            <span class="style7">Re:Re:Re:はじめまして</span>ハヤシ ( 2009/11/21 19:22)
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="tx14px">
-                            うらやましー！ どんな匂いがしますか？
-                            <br>
+                            <span>
+                                わたしは内面からにじみ出る細やかさも見逃せないと思います。繊細さというか。(^o^)
+                            </span>
                         </td>
                     </tr>
                     <tr>
@@ -207,24 +191,15 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span class="style7">Re:Re:Re:Re:はじめまして</span>ゴードン ( 2009/11/21 23:17 )
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="tx14px">レコードクリーナーのスプレーみたいな匂いがしますよ。</td>
-                    </tr>
-                    <tr>
-                        <td class="tx14px">
-                            <hr>
+                            <span class="style7">なるほどー</span>阿Q ( 2009/11/19 4:53)
                         </td>
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            <span class="style7">Re:Re:Re:Re:Re:はじめまして</span>ハヤシ ( 2009/11/22 9:49 )
+                            <span>
+                                一見そうは思わせないけど繊細なところがありますよね。それが{{questions.q1[choiceQuestions.q1 - 1]}}に現れているのではないでしょうか。
+                            </span>
                         </td>
-                    </tr>
-                    <tr>
-                        <td class="tx14px">さっそくレコードクリーナーを買ってきます♪</td>
                     </tr>
                 </table>
 
