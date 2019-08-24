@@ -283,6 +283,88 @@
                     </tr>
                 </table>
 
+                <table class="board-output-table">
+                    <tr>
+                        <td>
+                            <span class="style7">{{choiceQuestions.name}}トリビア</span>
+                            <span class="tx14px">マグマ ( 2009/11/17 3:16 )</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>聞いた話では{{questions.q3[choiceQuestions.q3 - 1]}}らしいですよ。</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:{{choiceQuestions.name}}トリビア</span>アムンゼン ( 2009/11/18 11:45 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                すごいですね！激レア情報ありがとうございます
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:{{choiceQuestions.name}}トリビア</span>パナマ運河庁 ( 2009/11/19 11:33 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                ますますファンになってしまいました
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">たぶん…</span>蒲田子 ( 2009/11/19 12:45)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                {{choiceQuestions.name}}っちが保険のセールスマンやっていたらきっとトップセールスだと思います。
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:たぶん…</span>土偶 ( 2009/11/19 13:01)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                その感じすごくわかります～
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+
             </div>
         </div>
     </div>
