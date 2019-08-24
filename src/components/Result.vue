@@ -365,6 +365,75 @@
                     </tr>
                 </table>
 
+                <table class="board-output-table">
+                    <tr>
+                        <td>
+                            <span class="style7">激安情報</span>
+                            <span class="tx14px">林雄司 ( 2009/11/25 2:10 )</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                「デイリーポータルZのなんか売る場所」ではここでしか買えないグッズを販売中。絶対得だからクリックしてみて！<br/>
+                                <a href="https://dailyportalz.booth.pm/">https://dailyportalz.booth.pm/</a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">なにこれ</span>ポッキー ( 2009/11/25 3:44 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                宣伝ですよね。これw
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:なにこれ</span>林雄司 ( 2009/11/26 4:21 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                デイリーポータルZをはげます会もヨロシク<br/>
+                                <a href="https://dailyportalz.jp/hagemasu_goannai">https://dailyportalz.jp/hagemasu_goannai</a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:なにこれ</span>イカ子( 2009/11/26 8:01)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                空気よんでほしいですよねー。管理人さん、削除しなくていいんですか？
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+
             </div>
         </div>
     </div>
