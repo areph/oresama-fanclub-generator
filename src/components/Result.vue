@@ -143,7 +143,7 @@
                 <table class="board-output-table">
                     <tr>
                         <td>
-                            <span class="style7">やっぱり%jiman%ですよね</span>
+                            <span class="style7">やっぱり{{questions.q1[choiceQuestions.q1 - 1]}}ですよね</span>
                             <span class="tx14px">谷P ( 2009/11/18 23:56 )</span>
                         </td>
                     </tr>
@@ -234,7 +234,10 @@
 </template>
 
 <script>
+    import questions from '../mixins/Questions';
+
     export default {
+        mixins: [questions],
         props: {
             choiceQuestions: Object
         }
