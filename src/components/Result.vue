@@ -2,7 +2,7 @@
     <div class="contents">
         <div class="contents-body">
 
-            <h1>{{questions.name}}ファンクラブ</h1>
+            <h1>{{choiceQuestions.name}}ファンクラブ</h1>
             <hr>
             <table class="board-form-table">
                 <tr>
@@ -62,7 +62,7 @@
                     <tr>
                         <td class="tx14px">
                             <span>こんな掲示板があるなんて知りませんでした！</span>
-                            <span>{{questions.name}}さんを応援する仲間ができて嬉しいです。{{questions.name}}ファン歴半年ですがよろしくおねがいします。</span>
+                            <span>{{choiceQuestions.name}}さんを応援する仲間ができて嬉しいです。{{choiceQuestions.name}}ファン歴半年ですがよろしくおねがいします。</span>
                         </td>
                     </tr>
                     <tr>
@@ -77,7 +77,7 @@
                     </tr>
                     <tr>
                         <td class="tx14px">ようこそ！
-                            {{questions.name}}さんを追ってもう2年になりますが心の中の炎は衰えません。こちらこそよろしくおねがいします。
+                            {{choiceQuestions.name}}さんを追ってもう2年になりますが心の中の炎は衰えません。こちらこそよろしくおねがいします。
                         </td>
                     </tr>
                     <tr>
@@ -92,7 +92,95 @@
                     </tr>
                     <tr>
                         <td class="tx14px">
-                            {{questions.name}}さんとはときどき会うことがありますが、とても魅力的なかたです
+                            {{choiceQuestions.name}}さんとはときどき会うことがありますが、とても魅力的なかたです
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:Re:はじめまして</span>ハヤシ ( 2009/11/21 19:22)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            うらやましー！ どんな匂いがしますか？
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:Re:Re:はじめまして</span>ゴードン ( 2009/11/21 23:17 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">レコードクリーナーのスプレーみたいな匂いがしますよ。</td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:Re:Re:Re:はじめまして</span>ハヤシ ( 2009/11/22 9:49 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">さっそくレコードクリーナーを買ってきます♪</td>
+                    </tr>
+                </table>
+
+                <table class="board-output-table">
+                    <tr>
+                        <td>
+                            <span class="style7">やっぱり%jiman%ですよね</span>
+                            <span class="tx14px">谷P ( 2009/11/18 23:56 )</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>こんな掲示板があるなんて知りませんでした！</span>
+                            <span>{{choiceQuestions.name}}さんを応援する仲間ができて嬉しいです。{{choiceQuestions.name}}ファン歴半年ですがよろしくおねがいします。</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:はじめまして</span>chappie ( 2009/11/21 10:44 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">ようこそ！
+                            {{choiceQuestions.name}}さんを追ってもう2年になりますが心の中の炎は衰えません。こちらこそよろしくおねがいします。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:はじめまして</span>ゴードン ( 2009/11/21 14:51 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            {{choiceQuestions.name}}さんとはときどき会うことがありますが、とても魅力的なかたです
                             <br>
                         </td>
                     </tr>
@@ -148,7 +236,7 @@
 <script>
     export default {
         props: {
-            questions: Object
+            choiceQuestions: Object
         }
     };
 </script>
@@ -211,11 +299,11 @@
 
     .board-output-table {
         width: 600px;
-        margin: 0 auto;
         border-collapse: separate;
         border: 1px #CCCCCC solid;
         border-spacing: 1px;
         padding: 10px;
+        margin: 0 auto 50px;
     }
 
     .vertical-align-top {
