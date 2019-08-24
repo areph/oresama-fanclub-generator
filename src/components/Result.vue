@@ -434,6 +434,105 @@
                     </tr>
                 </table>
 
+                <table class="board-output-table">
+                    <tr>
+                        <td>
+                            <span class="style7">{{choiceQuestions.name}}のここが嫌だ</span>
+                            <span class="tx14px">ちゅ～ ( 2009/11/10 21:15 )</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>{{choiceQuestions.name}}は{{questions.q4.week1[choiceQuestions.q4 - 1]}}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">そんなことないです！</span>サルコジ ( 2009/11/10 21:18 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                そんなことを言うひとゎファンではないと思います！
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:そんなことないです！</span>ちゅ～ ( 2009/11/10 21:20 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                ごめんなさい。もういいません。
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:そんなことないです！</span>ウユニ塩湖 ( 2009/11/10 23:56)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                でもそんな欠点も隠そうとしないところに{{choiceQuestions.name}}の優しさがあるんじゃないでしょうか。
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:Re:そんなことないです！</span>カウンタック ( 2009/11/11 4:22)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                {{questions.q4.week2[choiceQuestions.q4 - 1]}}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">-</span>-
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                発言は削除されました
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+
             </div>
         </div>
     </div>
