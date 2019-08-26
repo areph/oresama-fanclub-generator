@@ -533,6 +533,104 @@
                     </tr>
                 </table>
 
+                <table class="board-output-table">
+                    <tr>
+                        <td>
+                            <span class="style7">{{choiceQuestions.name}}様の顔をよく見てたら</span>
+                            <span class="tx14px">てんとう虫 ( 2009/11/23 11:38 )</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>{{questions.q5.sameFace1[choiceQuestions.q5 - 1]}}に似てませんか</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">さらによく見ると</span>太陽神戸 ( 2009/11/23 11:46 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                わたしは{{questions.q5.sameFace2[choiceQuestions.q5 - 1]}}だと思うのですが。
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:さらによく見ると</span>くしゃおじさん ( 2009/11/23 12:41 )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                とある関係でときどき顔を合わせているものなのですが、実物は{{questions.q5.sameFace3[choiceQuestions.q5 - 1]}}に似ていますよ
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:さらによく見ると</span>ヤキメシ ( 2009/11/23 14:55)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                えー、ウラヤマシイ {{questions.q5.sameFace3[choiceQuestions.q5 - 1]}}ですかー。たしかに髪型を変えたら似ているかもしれませんね。顔の作りが。
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">Re:Re:Re:さらによく見ると</span>サチコ ( 2009/11/23 19:46)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                輪郭と目を無視したらばほぼ同じじゃないでしょうか。
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span class="style7">輪郭と目を無視したら…</span>犬 ( 2009/11/23 22:06)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tx14px">
+                            <span>
+                                誰でも同じにならないですか。
+                            </span>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
