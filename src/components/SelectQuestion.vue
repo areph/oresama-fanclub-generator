@@ -30,24 +30,16 @@
         },
         data() {
             return {
-                advancedChoices: this.choices.map(c => c),
                 selectedValue: this.value
             };
-        },
-        mounted() {
-            // setInterval(() => {
-            //   this.advancedChoices = this.advancedChoices.sort((a, b) =>
-            //     Math.random() > 0.5 ? 1 : -1
-            //   );
-            //   console.log(this.advancedChoices);
-            // }, 1000);
         },
         methods: {
             handleSubmit() {
                 this.$emit("input", this.selectedValue);
                 this.$emit("next");
+                this.selectedValue = '1';
             }
-        }
+        },
     };
 </script>
 
