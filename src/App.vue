@@ -5,7 +5,7 @@
                 :choices="questions.q1.select"
                 :step="step"
                 @next="step++"
-                message="自分の体で自慢できるところはどこですか？"
+                :message="questions.q1.label"
                 v-if="step === 2"
                 v-model="choiceQuestions.q1"
         />
@@ -13,7 +13,7 @@
                 :choices="questions.q2.select"
                 :step="step"
                 @next="step++"
-                message="これは人に負けないというところはどこですか？"
+                :message="questions.q2.label"
                 v-if="step === 3"
                 v-model="choiceQuestions.q2"
         />
@@ -21,7 +21,7 @@
                 :choices="questions.q3.select"
                 :step="step"
                 @next="step++"
-                message="過去の栄光で当てはまる、もしくはいちばん近いものを選んでください"
+                :message="questions.q3.label"
                 v-if="step === 4"
                 v-model="choiceQuestions.q3"
         />
@@ -29,7 +29,7 @@
                 :choices="questions.q4.select"
                 :step="step"
                 @next="step++"
-                message="自分の欠点だと思うものはなんですか"
+                :message="questions.q4.label"
                 v-if="step === 5"
                 v-model="choiceQuestions.q4"
         />
@@ -37,7 +37,7 @@
                 :choices="questions.q5.select"
                 :step="step"
                 @next="step++"
-                message="あなたの顔の特徴でいちばん近いものを選んでください"
+                :message="questions.q5.label"
                 v-if="step === 6"
                 v-model="choiceQuestions.q5"
         />
